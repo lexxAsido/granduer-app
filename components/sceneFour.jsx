@@ -40,13 +40,13 @@ const SceneFour = () => {
     <section className="flex flex-col gap-2 justify-around items-center lg:min-h-screen relative overflow-hidden">
       <h3 className="text-2xl font-bold animate-pulse">Scene Four</h3>
       <div className="relative flex justify-center items-center bg-gray-100 py-5 shadow-lg shadow-black p-2 border 
-        w-[80vw] h-[80vw] md:w-[60vw] md:h-[60vw] lg:w-[50rem] lg:h-[50rem]">
+        w-[80vw] h-[80vw] md:w-[60vw] md:h-[60vw] lg:w-[50rem] lg:h-[50rem] max-md:mb-5">
 
         {/* Central App */}
         <div className="central-app flex flex-col items-center gap-3 justify-center">
           <RiSignalTowerFill className="text-3xl animate-ping" />
           <FaMobileAlt size={100} className="text-cyan-500" />
-          <h3 className="font-bold text-xl text-center">GrandeurSmart App</h3>
+          <h3 className="font-bold text-xl text-center max-lg:text-sm">GrandeurSmart App</h3>
         </div>
 
         {/* SVG for arrows */}
