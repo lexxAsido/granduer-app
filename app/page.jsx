@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <div>
       <h1 className="text-center text-6xl font-bold mt-5 max-lg:text-lg">GrandeurSmart </h1>
-     {/* <AnimationFlow/> */}
-     <SceneFour/>
+     <AnimationFlow/>
+     {/* <SceneFour/> */}
      {/* <SceneThree/> */}
       <Footer/>
     </div>
