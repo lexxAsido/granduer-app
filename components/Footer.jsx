@@ -10,7 +10,7 @@ const Footer = () => {
 
             <div className="flex items-center  font-semibold max-md:text-sm">
                 <FaCopyright className="lg:text-2xl max-md:text-sm max-md:ml-3 text-white" />
-                <h3 className='max-lg:text-sm text-white'>2026 Developed by Asido Alexandar. All Rights Reserved</h3>
+                <h3 className='max-lg:text-sm text-white'>2026 Lexitechnologies. All Rights Reserved</h3>
             </div>
             
 

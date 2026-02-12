@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import { FaEye } from "react-icons/fa";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },
@@ -145,6 +146,34 @@ const RoedeanSport = () => {
           />
         </motion.div>
       </motion.div>
+      {/* Contact Section */}
+<motion.div
+  variants={fadeInUp}
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: false, amount: 0.2 }}
+  className="mt-20 mb-10 text-center max-w-3xl mx-auto"
+>
+  
+
+  <h1 className="text-base sm:text-4xl text-gray-700  leading-relaxed font-bold capitalize">
+    my Resume/Portfolio/Completed Projects
+  </h1>
+
+ <motion.a
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.98 }}
+  href="https://alexportfolio-murex.vercel.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex bg-[#1B1D4D] text-white px-8 py-4 rounded-xl flex-row items-center gap-2 text-lg font-semibold shadow-lg transition-all duration-300 hover:shadow-2xl"
+>
+  View
+  <FaEye />
+</motion.a>
+
+</motion.div>
+
     </section>
   );
 };
