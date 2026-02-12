@@ -12,15 +12,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "GrandeurSmart Animation",
-  description: " GrandeurSmart app simplifing devices",
+  title: "Roedean Sport App",
+  description: " Official Roedean Sport App",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
         {children}
       </body>

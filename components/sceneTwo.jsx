@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 
 const SceneTwo = () => {
   useEffect(() => {
-
+      
     gsap.fromTo(
       ".app-icon",
       { x: 0, y: 0 },
